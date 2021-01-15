@@ -155,7 +155,6 @@ body {
 }
 
 .posts-header {
-    margin: 0;
     font-size: 14px;
     line-height: 1.28;
     text-transform: uppercase;
@@ -172,6 +171,10 @@ body {
     left: 15px;
     border: 3px solid #b59f5b;
     z-index: 2;
+}
+
+.trend-content-header {
+    width: 100%;
 }
 
 .trend-part::after {
@@ -571,14 +574,27 @@ body {
 }
 
 .shop {
-    margin-bottom: 150px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+.shop-header {
+    font-size: 20px;
+    line-height: 1.28;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .shop-container {
-    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.shop-block {}
+.shop-block {
+    position: relative;
+}
 
 .shop-title {
     line-height: 1.2;
@@ -593,13 +609,59 @@ body {
 }
 
 .content-container {
+    width: 340px;
+    height: 260px;
     box-sizing: border-box;
     position: absolute;
-    padding: 35px;
+    padding: 47px 25px 65px;
     top: 250px;
-    left: -20px;
-    right: -20px;
+    left: -28px;
     border: 3px solid #b59f5b;
+}
+
+.shop-description {
+    font-size: 14px;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #b59f5b;
+}
+
+.shop-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.shop-prices {}
+
+.shop-price {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.old-price {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.shop-button {
+    width: 140px;
+    height: 50px;
+    background-color: #b59f5b;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.shop-button:hover {
+    background-color: #323232;
 }
 
 .footer {
