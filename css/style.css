@@ -879,8 +879,73 @@ body {
         width: 100%;
     }
     .footer {
-        width: 100%;
+        width: calc(100% - 60px);
     }
 }
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {}
+
+@media (max-width: 640px) {
+    .header {
+        background-image: url(../images/banner-mobile.jpg);
+        height: 100vh;
+    }
+    .container {
+        display: block;
+        width: 100%;
+    }
+    .logo-link {}
+    .header-logo {
+        width: 27rem;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-mobil {
+        display: block;
+        width: 3rem;
+        height: 2.5rem;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        margin-left: auto;
+        position: relative;
+        cursor: pointer;
+    }
+    .menu-button {
+        display: block;
+        width: 3rem;
+        height: 0.4rem;
+        background-color: #ffffff;
+        position: absolute;
+        top: 1rem;
+        border: none;
+    }
+    .menu-mobil:before {
+        content: "";
+        width: 3rem;
+        height: 0.4rem;
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+    }
+    .menu-mobil:after {
+        content: "";
+        width: 3rem;
+        height: 0.4rem;
+        display: block;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .trend-container {
+        display: block;
+    }
+    .trend-part {
+        width: 100%;
+    }
+}
