@@ -891,10 +891,14 @@ body {
         height: 100vh;
     }
     .container {
-        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
         width: 100%;
     }
-    .logo-link {}
+    .logo-link {
+        order: 1;
+        margin-top: 18.5rem;
+    }
     .header-logo {
         width: 27rem;
     }
@@ -909,6 +913,8 @@ body {
         padding: 0;
         background-color: transparent;
         margin-left: auto;
+        margin-right: 1.6rem;
+        margin-top: 2rem;
         position: relative;
         cursor: pointer;
     }
@@ -941,6 +947,10 @@ body {
     }
     .title {
         font-size: 26px;
+        margin-top: 4rem;
+    }
+    .container-title {
+        width: 28rem;
     }
     .trend-container {
         display: block;
