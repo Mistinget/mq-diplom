@@ -1006,3 +1006,19 @@ body {
         width: 90%;
     }
 }
+
+@media (max-width: 640px) and (orientation: landscape) {
+    .trend-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trend-part {
+        width: calc(50% - 0.4rem);
+    }
+    .trend-part:nth-child(2n) {
+        margin-left: 0.4rem;
+    }
+    .trend-part:nth-child(n+3) {
+        margin-top: 0.3rem;
+    }
+}
