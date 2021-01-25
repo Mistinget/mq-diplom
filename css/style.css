@@ -236,7 +236,7 @@
     }
     
     .card-time {
-        font-size: 1.2rem;
+        font-size: 12px;
         color: #888888;
         line-height: normal;
         margin-top: 0.4rem;
@@ -256,7 +256,7 @@
     
     .autor-link {
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 12px;
         font-weight: 700;
         color: black;
     }
@@ -751,9 +751,6 @@
     }
     
     @media (min-width: 641px) and (max-width: 1199px) {
-        html {
-            font-size: 9px;
-        }
         .header {
             width: 100%;
             background-image: url(../images/banner-bg-tablet.jpg);
@@ -803,7 +800,7 @@
             bottom: 0;
         }
         .trend-title {
-            font-size: 1.8rem;
+            font-size: 17px;
         }
         .page {
             width: 77.5rem;
@@ -862,9 +859,6 @@
     }
     
     @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
-        html {
-            font-size: 9px;
-        }
         .trend-container {
             display: flex;
             flex: 1;
@@ -896,7 +890,7 @@
         }
         .logo-link {
             order: 1;
-            margin-top: 18.5rem;
+            margin-top: 35%;
         }
         .header-logo {
             width: 27rem;
@@ -1016,7 +1010,7 @@
         }
         .logo-link {
             order: 1;
-            margin-top: 4rem;
+            margin-top: 6%;
         }
         .container-title {
             width: 48rem;
@@ -1031,7 +1025,10 @@
         .trend-part:nth-child(2n) {
             margin-left: 0.4rem;
         }
+        .trend-part:nth-child(n+2) {
+            margin-top: 0;
+        }
         .trend-part:nth-child(n+3) {
-            margin-top: 0.3rem;
+            margin-top: 0.4rem;
         }
     }
