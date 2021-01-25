@@ -169,7 +169,7 @@
     .trend-content {
         box-sizing: border-box;
         position: absolute;
-        padding: 3.5rem;
+        padding: 9%;
         bottom: 1.5rem;
         left: 1.5rem;
         right: 1.5rem;
@@ -801,6 +801,9 @@
             background-color: #ffffff;
             position: absolute;
             bottom: 0;
+        }
+        .trend-title {
+            font-size: 1.8rem;
         }
         .page {
             width: 77.5rem;
