@@ -746,15 +746,16 @@
         position: fixed;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.8);
         display: flex;
+        z-index: 9;
     }
     
     .popup-container {
         position: relative;
         max-width: 390px;
         width: 88%;
-        height: 90%;
+        max-height: 585rem;
         margin: auto;
     }
     
@@ -794,7 +795,7 @@
         font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
-    .form-group {
+    .form-group-popup {
         display: block;
         margin-top: 30px;
     }
