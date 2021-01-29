@@ -206,11 +206,8 @@
     .page {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         box-sizing: border-box;
         max-width: 120rem;
-        padding-left: 1%;
-        padding-right: 1%;
         margin-top: 6rem;
         margin-left: auto;
         margin-right: auto;
@@ -218,7 +215,7 @@
     
     .news {
         box-sizing: border-box;
-        width: 66%;
+        width: auto;
     }
     
     .card {
@@ -263,8 +260,8 @@
     
     .card-content {
         box-sizing: border-box;
-        width: 46%;
-        margin-left: 3%;
+        width: 38rem;
+        margin-left: 3rem;
         margin-top: -0.6rem;
     }
     
@@ -326,7 +323,8 @@
     
     .posts {
         box-sizing: border-box;
-        width: 24%;
+        width: 27rem;
+        margin-left: 14rem;
     }
     
     .post-img {
@@ -455,7 +453,7 @@
         box-sizing: border-box;
         width: 100%;
         border: none;
-        padding: 1.5rem 8rem 1.5rem 1.7rem;
+        padding: 1.5rem 8.5rem 1.5rem 1.7rem;
         margin-top: 1rem;
         margin-right: 0;
         font-size: 1.3rem;
@@ -532,7 +530,7 @@
     
     .topics-list {
         display: block;
-        width: 100%;
+        width: 27rem;
         list-style-type: none;
         padding-left: 0;
         margin-top: 0;
@@ -997,7 +995,7 @@
             font-size: 0.7em;
         }
         .page {
-            width: 90%;
+            width: 95%;
             align-items: flex-start;
         }
         .news {
@@ -1018,11 +1016,11 @@
             margin-top: 0.6rem;
         }
         .posts {
-            width: 27rem;
-        }
-        .post-list {
-            width: 68%;
+            max-width: 45%;
             margin-left: 5%;
+        }
+        .posts-list {
+            margin-left: 2rem;
         }
         .shop-container {
             flex-wrap: wrap;

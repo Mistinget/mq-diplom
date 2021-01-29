@@ -795,6 +795,13 @@
             position: absolute;
             bottom: 0;
         }
+        .container-title {
+            max-width: 68rem;
+            width: 88%;
+        }
+        .title {
+            font-size: 4rem;
+        }
         .trend-title {
             font-size: 17px;
         }
